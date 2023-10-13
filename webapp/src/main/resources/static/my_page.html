@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Welcome to my page!</h1>
+    <hr>
+    <label>num1
+        <input id="n1" type="number">
+    </label>
+    <label>num2
+        <input id="n2" type="number">
+    </label>
+    <button onclick="add()">add</button>
+    <hr>
+    <a href="index.html">go back</a>
+    <script>
+        function add() {
+            let num1 = document.getElementById('n1').value;
+            let num2 = document.getElementById('n2').value;
+
+            const importObj = {
+                env: {
+                    log: n => console.log(n)
+                }
+            };
+
+
+            WebAssembly.instantiateStreaming(fetch('program.wasm'), importObj)
+                       .then(prog => {
+                           window.alert(num1 + ' + ' + num2 + ' = ' + prog.instance.exports.add(num1, num2));
+                       });
+        }
+    </script>
+</body>
+</html>
