@@ -1,0 +1,19 @@
+C4 model:
+https://c4model.com/
+
+Apache Causeway:
+https://causeway.apache.org/index.html
+
+Fitness Functions:
+https://www.infoq.com/news/2019/02/fitness-functions-architecture/
+https://sergiuoltean.com/2020/04/29/fitness-functions/
+https://github.com/TNG/ArchUnit
+https://apiumhub.com/tech-blog-barcelona/architectural-fitness-function/
+https://betterprogramming.pub/the-up-and-running-guide-to-architectural-fitness-functions-1621ebe46ea
+
+WebAssembly:
+https://www.parity.io/blog/wasm-smart-contract-development/
+https://youtu.be/Yaev4Cu1GW0?si=GEiAyvSoD-b-b62m
+https://www.infoworld.com/article/3692456/hands-on-with-java-and-wasm.html
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/java-in-the-browser-webassembly-tutorial-wasm-teavm-html-javascript
+https://openhome.cc/eGossip/WebAssembly/C2Wasm.html
